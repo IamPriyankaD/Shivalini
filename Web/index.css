@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Satisfy&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: initial;
+}
+#navbar{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-weight: bold;
+ 	padding: .5rem 5rem;
+ 	box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+ 	background: black;
+ }
+#navbarSupportedContent a{
+ 	color: white;
+ 	border-bottom: 2px solid transparent;
+ }
+#navbarSupportedContent a:hover{
+     color: Skyblue;
+ }
+#navbarSupportedContent button{
+  	border-radius: 15px;
+  }
+section{
+  	width: 100%;
+  	min-height: 100vh;
+  	display: flex;
+  	justify-content: center;
+    align-items: center;
+ }
+#home{
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(shop.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  
+ }
+#home h1{
+ 	font-size: 80px;
+ 	color: white;
+ 	letter-spacing: 2px;
+ 	font-family: verdana, Geneva,Tahoma, sans-serif;
+ 	text-shadow: 12px;
+ 	padding: 20px;
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&family=Roboto:wght@400;500;700&family=Satisfy&display=swap');
+  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Satisfy', cursive;
+  cursor: pointer;
+  width: 9% !important;
+  margin-left: 325px;
+}
+#home p{
+	 height: 10px;
+	 margin-left: 500px;
+   color: white;
+   font-size: 19px;
+   cursor: pointer;
+}
+#bt{
+	margin-left: 65%;
+}         
+button{
+ 	 	background: green !important;
+ 	 	color: white !important;
+ 	 	box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+button a{
+	text-decoration: none;
+	color: white;
+}
+#about{
+    background:#116466;
+}
+#about h1{
+    font-weight:700;
+    font-size: 50px;
+    color: white;
+
+}
+#about{
+    color: white;
+}
+#service{
+    background:#01257D;
+}
+#service h1{
+    font-weight:700;
+    font-size: 50px;
+    color: white;
+}
+#service{
+    color: white;
+}
+#Gallery{
+      background:#e5e5e5 !important
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background:#e5e5e5 !important;
+    border:none!important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+  }
+  #Gallery h1{
+    font-weight:700;
+    font-size: 50px;
+    color: white;
+}
+ .card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+
+  }
+#contact{
+    background:#B3DEE5;
+    min-height: 800px;
+
+  }
+   
+ #contact h1{
+    font-weight:700;
+    font-size: 50px;
+    color: black;
+ }
+ 
+ 
+footer{
+    height: 30px;
+    background:gray;
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+  }
+
+/* WA floating button CSS */
+.floating {
+ position: fixed;
+ width: 60px;
+ height: 60px;
+ bottom: 40px;
+ right: 40px;
+ background-color: #25d366;
+ color: #fff;
+ border-radius: 50px;
+ text-align: center;
+ font-size: 30px;
+ box-shadow: 2px 2px 3px #999;
+ z-index: 100;
+}
+.fab-icon {
+ margin-top: 16px;
+}
